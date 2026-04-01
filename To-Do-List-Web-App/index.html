@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="list-pad">
+      <h1 class="title">✦ TO-DO LIST ✦</h1>
+
+      <div class="itm-add">
+        <p class="head">Add Item</p>
+        <span class="box-and-btn">
+          <input class="add-box" type="text" id="taskInput" placeholder="What needs doing?" maxlength="80" />
+          <button class="add-btn" id="addBtn" type="button">ADD</button>
+        </span>
+      </div>
+
+      <div class="list">
+        <p class="head">List <span class="count" id="taskCount"></span></p>
+        <ul class="items" id="taskList"></ul>
+        <p class="empty-msg" id="emptyMsg">No tasks yet. Add one above!</p>
+      </div>
+
+      <div class="footer-actions">
+        <button class="clear-btn" id="clearDoneBtn" type="button">Clear Completed</button>
+        <button class="clear-btn danger" id="clearAllBtn" type="button">Clear All</button>
+      </div>
+    </div>
+
+    <script src="logic.js"></script>
+  </body>
+</html>

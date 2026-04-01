@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 12, 65);
+}
+.login{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(5, 65, 129);
+    border: solid;
+    border-color: rgb(106, 114, 200);
+    border-width: 3px;
+    border-radius: 18px;
+}
+.entry{
+    font-size: 60px;
+    text-align: center;
+}
+.ent-msg{
+    font-size: 40px;
+    text-align: center;
+}
+.form{
+    margin-top: 20px;
+    background-color: rgb(110, 160, 204);
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: solid;
+    border-radius: 10px;
+    text-align: center;
+}
+.forgot{
+    font-size: medium;
+    align-self: start;
+    margin-left: 10px;
+}
+.row{
+    gap: 5px;
+    margin-top: 20px;
+}
+.remember{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+}
+input[type="email"],
+input[type="password"]{
+    width: 96%;
+    height: 30px;
+    align-self: center;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    align-self: center;
+    margin-top: 40px;
+    background-color: rgb(0, 166, 255);
+
+}
+.btn:hover{
+    background-color: rgb(5, 5, 113);
+    color: aliceblue;
+    transform: scale(1.1);
+}
+.end-text{
+    font-size: 20px;
+    margin-top: 70px;
+}
